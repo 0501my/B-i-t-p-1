@@ -184,7 +184,7 @@ function displayStaff() {
 
 // tìm nhân viên
 function findStaff() {
-    console.log(`---------sau khi tìm`)
+    console.log(`---------sau khi tìm-----------`)
     let fullName = input.question("nhap ten")
     console.log(QLNhanVien.findNhanVien(fullName))
 }
@@ -258,7 +258,7 @@ function displayEngineer() {
 
 // tìm kỹ sư
 function findEngineer() {
-    console.log(`---------sau khi tìm`)
+    console.log(`---------sau khi tìm---------`)
     let fullName = input.question("nhap ten")
     console.log(QLKySu.findKySu(fullName))
 }
